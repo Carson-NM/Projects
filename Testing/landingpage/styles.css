@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+#container1 {
+    background-color: #222936;
+}
+#header {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+#logo {
+    flex: 7;
+    margin: 3px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.header-link {
+    margin:10px;
+    flex:1;
+    font-size: 12px;
+}
+
+#flex-container1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 48px;
+}
+
+#flex-title {
+    display: flex;
+    flex-direction: column;
+}
+
+#title1 {
+    margin: 0px;
+    font-size: 50px;
+}
+
+#signup1 {
+    background-color: #5c81ed;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 120px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
