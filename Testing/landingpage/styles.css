@@ -53,7 +53,45 @@ body{
 }
 
 #title2 {
+    display: block;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#flex-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+ .image {
+    width: 150px;
+    height: 150px;
+    border: #5c81ed solid 4px;
+    border-radius: 10px
+ }
+
+ .description2 {
+    width: 150px;
+    text-align: center;
+ }
+
+ #container3 {
+    background-color: lightgray;
+    margin-top: 70px;
+    padding: 100px
+ }
+
+ #quote {
+    font-size: 40px;
+    font-style: italic;
+ }
+
+#flex-container3 {
+    display: flex;
+    justify-content: right;
 }
